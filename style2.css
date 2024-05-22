@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/pexels-pixabay-39553.jpg) no-repeat;
+   
+    background-size: cover;
+    background-position: center;
+    
+}
+
+
+
+
+
+.login-form{
+    width:350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color:antiquewhite;
+
+}
+
+.login-form h1{
+    font-size:40px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+}
+
+.login-form p{
+font-size: 15px;
+margin: 15px 0;
+
+}
+
+.login-form input{
+
+    font-size: 16px;
+    width: 100%;
+    padding: 15px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 3px;
+}
+
+.login-form button{
+     font-size:18px;
+     font-weight: bold;
+     margin: 20px 0;
+padding: 10px 10px;
+width: 50%;
+border-radius: 5px;
+border:0 ;
+transition: background-color 0.3s ease;
+}
+
+.login-form button:hover{
+    background-color: #546854; 
+}
+
+
+#factoryDropdown {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+}
+
+/* Style the options in the dropdown */
+#factoryDropdown option {
+    padding: 5px;
+    font-size: 14px;
+}

@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(images/pexels-pixabay-39553.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar{
+width: 85%;
+margin: auto;
+padding: -20px 0;
+display:flex;
+align-items: center;
+justify-content: space-between;
+
+}
+
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+   
+}
+
+.navbar ul li a{
+    text-decoration: none;
+
+   font-size: 15px;
+   color:antiquewhite;
+   text-transform: uppercase;
+   line-height: 49px;
+}
+
+.navbar ul li::after{
+    content: '';
+    height:4px;
+    width: 100%;
+    background: #009688;
+    position: absolute;
+    left:0;
+    border:10px;
+}
+
+.content{
+    width:100%;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: antiquewhite;
+
+}
+
+.content h1{
+    font-size:80px;
+    margin-top: 0px;
+}
+
+.content p{
+    margin:20px auto;
+    font-weight:100;
+    line-height: 25px;
+}
+
+button{
+    width:200px;
+    padding:15px 0;
+    text-align: center;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: bold;
+    border: 2px solid #546854;
+    background: transparent;
+    color: antiquewhite;
+    cursor:pointer;
+    position: relative;
+    overflow: hidden;
+}
+button:hover {
+    background-color: #546854; /* Change background color on hover */
+}
+
+span{
+    height:100% ;
+    width: 100%;
+    border-radius: 25px;
+    position: absolute;
+    left:0;
+    bottom:0;
+}
